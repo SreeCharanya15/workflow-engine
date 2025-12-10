@@ -31,7 +31,7 @@ POST /graph/run
 GET /graph/state/{run_id}
 
 # Example Usage
-# Create graph
+-Create graph
 {
   "nodes": [
     "extract_functions",
@@ -47,7 +47,7 @@ GET /graph/state/{run_id}
   "start_node": "extract_functions"
 }
 
-# Run Workflow
+- Run Workflow
 {
   "graph_id": "graph_1",
   "initial_state": {
@@ -59,12 +59,12 @@ GET /graph/state/{run_id}
 
 
 # How to run locally
-git clone <your_repo>
-cd tredence-workflow-engine
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+- git clone https://github.com/SreeCharanya15/workflow-engine
+- cd tredence-workflow-engine
+- python -m venv venv
+- venv\Scripts\activate
+- pip install -r requirements.txt
+- uvicorn app.main:app --reload
 
 # Future Improvements
 - Database storage
