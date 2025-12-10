@@ -25,6 +25,18 @@ This project was built as part of a workflow assignment to show how backend work
 # Tech Stack
 Python 3.11, FastAPI, Uvicorn
 
+# API URL
+
+Base URL:
+http://127.0.0.1:8000
+
+Swagger documentation:
+http://127.0.0.1:8000/docs
+
+run_id:
+run_1  (Note: run_id will change for each execution)
+
+
 # API Endpoints
 - POST /graph/create
 - POST /graph/run
