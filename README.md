@@ -26,12 +26,12 @@ This project was built as part of a workflow assignment to show how backend work
 Python 3.11, FastAPI, Uvicorn
 
 # API Endpoints
-POST /graph/create
-POST /graph/run
-GET /graph/state/{run_id}
+- POST /graph/create
+- POST /graph/run
+- GET /graph/state/{run_id}
 
 # Example Usage
--Create graph
+- Create graph
 {
   "nodes": [
     "extract_functions",
