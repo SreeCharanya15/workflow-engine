@@ -23,7 +23,7 @@ This project was built as part of a workflow assignment to show how backend work
 - In-memory run history
 
 # Tech Stack
-Python, FastAPI, Uvicorn
+Python 3.11, FastAPI, Uvicorn
 
 # API Endpoints
 POST /graph/create
